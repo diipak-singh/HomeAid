@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HomeAid</string>
+
+    <string name="t_and_c">By Logging in / Signing Up you agree to the Terms and Conditions and Terms Of Service of HomeAid.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sComplete">Appointment Booked Successfully. We will reach you shortly.</string>
+
 </resources>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "369687653381",
+    "firebase_url": "https://homeaid-2c628.firebaseio.com",
+    "project_id": "homeaid-2c628",
+    "storage_bucket": "homeaid-2c628.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369687653381:android:fd81805e7b6ea9eb22806c",
+        "android_client_info": {
+          "package_name": "com.baba.homeaidadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369687653381-vea05gjbslik6d5ddi5odtg3tehtkk3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baba.homeaidadmin",
+            "certificate_hash": "c3b737902702c6d99247273237d3c96a13c1f6b2"
+          }
+        },
+        {
+          "client_id": "369687653381-s3gm5dhpqib5l0hqins1qgd5id6vmqkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe76eP9L7wrzejkbLzV3VHg_kX8IDFp0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369687653381-s3gm5dhpqib5l0hqins1qgd5id6vmqkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369687653381:android:d203fdd094c7511622806c",
+        "android_client_info": {
+          "package_name": "com.tecnosols.homeaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369687653381-s3gm5dhpqib5l0hqins1qgd5id6vmqkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe76eP9L7wrzejkbLzV3VHg_kX8IDFp0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369687653381-s3gm5dhpqib5l0hqins1qgd5id6vmqkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -51,6 +52,30 @@ public class ItemActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
         getItems();
+
+        recyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(getApplicationContext(), recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(View view, int position) {
+                        /*Intent intent=new Intent(Subcategory.this,ItemActivity.class);
+                        String addr=catg+"/"+catList.get(position).getCatName();
+                        intent.putExtra("address",addr);
+                        startActivity(intent);*/
+                        Intent in = new Intent(ItemActivity.this,SubmitActivity.class);
+                        in.putExtra("itemname",itemList.get(position).itemname);
+                        in.putExtra("itemprice",itemList.get(position).itemprice);
+                        in.putExtra("cat",addr);
+                        in.putExtra("image",image);
+                        startActivity(in);
+                        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                    }
+
+                    @Override
+                    public void onLongItemClick(View view, int position) {
+
+                    }
+                }));
+
     }
     private void getItems(){
 

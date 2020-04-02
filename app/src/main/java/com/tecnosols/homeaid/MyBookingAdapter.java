@@ -104,7 +104,7 @@ public class MyBookingAdapter extends RecyclerView.Adapter<MyBookingAdapter.cate
             completeService.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                     if (isChecked) {
-                        //BookingsFragment.markComplete(getAdapterPosition());
+                        BookingsFragment.markComplete(getAdapterPosition());
                     }
                 }
             });
@@ -116,7 +116,7 @@ public class MyBookingAdapter extends RecyclerView.Adapter<MyBookingAdapter.cate
                 public void onClick(View v) {
                     float rtg = ratingBar.getRating();
                     final String rating = Float.toString(rtg);
-                    //BookingsFragment.submitRating(getAdapterPosition(), rating);
+                    BookingsFragment.submitRating(getAdapterPosition(), rating);
                 }
             });
         }
